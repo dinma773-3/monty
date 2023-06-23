@@ -31,7 +31,6 @@ instruction_t opst[] = {
 };
 unsigned int i = 0;
 char *op;
-
 op = strtok(content, " \n\t");
 if (op && op[0] == '#')
 return (0);
